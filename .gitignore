@@ -1,0 +1,7 @@
+scripts/.pw-user-data/*
+scripts/.pw-user-data-naukri/*
+/node_modules/*
+/remote-results/*
+scripts/.pw-user-data-linkedin/*
+scripts/.pw-user-data-naukri-linkedin/*
+scripts/.pw-user-data-naukri-linkedin/*
