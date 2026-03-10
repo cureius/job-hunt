@@ -5,3 +5,68 @@ scripts/.pw-user-data-naukri/*
 scripts/.pw-user-data-linkedin/*
 scripts/.pw-user-data-naukri-linkedin/*
 scripts/.pw-user-data-naukri-linkedin/*
+# ── Dependencies ──────────────────────────────────────────────────────────────
+job-hunt/node_modules/
+job-hunt/.pnp
+job-hunt/.pnp.*
+job-hunt/.yarn/*
+job-hunt/.yarn/patches
+job-hunt/.yarn/plugins
+job-hunt/.yarn/releases
+job-hunt/.yarn/versions
+
+# ── Next.js build output ──────────────────────────────────────────────────────
+job-hunt/.next/
+job-hunt/out/
+job-hunt/build/
+job-hunt/dist/
+
+# ── Environment & secrets (NEVER commit these) ────────────────────────────────
+job-hunt/.env
+job-hunt/.env.*
+job-hunt/.env.example
+
+# ── Auth / session files ──────────────────────────────────────────────────────
+job-hunt/auth.json
+job-hunt/*.auth.json
+job-hunt/.pw-user-data/
+job-hunt/.pw-user-data-*/
+
+# ── OS junk ───────────────────────────────────────────────────────────────────
+job-hunt/.DS_Store
+job-hunt/.DS_Store?
+job-hunt/._*
+job-hunt/Thumbs.db
+job-hunt/ehthumbs.db
+job-hunt/Desktop.ini
+
+# ── Editor / IDE ──────────────────────────────────────────────────────────────
+job-hunt/.vscode/
+job-hunt/.idea/
+job-hunt/*.swp
+job-hunt/*.swo
+job-hunt/*~
+
+# ── Logs ──────────────────────────────────────────────────────────────────────
+job-hunt/npm-debug.log*
+job-hunt/yarn-debug.log*
+job-hunt/yarn-error.log*
+job-hunt/.pnpm-debug.log*
+job-hunt/*.log
+
+# ── Testing & coverage ────────────────────────────────────────────────────────
+job-hunt/coverage/
+job-hunt/.nyc_output/
+
+# ── TypeScript ────────────────────────────────────────────────────────────────
+job-hunt/*.tsbuildinfo
+job-hunt/next-env.d.ts
+
+# ── Vercel ────────────────────────────────────────────────────────────────────
+job-hunt/.vercel
+
+
+# ── Misc ──────────────────────────────────────────────────────────────────────
+job-hunt/*.pem
+job-hunt/*.key
+job-hunt/*.cert
