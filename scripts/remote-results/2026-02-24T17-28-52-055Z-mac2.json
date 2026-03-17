@@ -1,0 +1,11 @@
+{
+  "workerId": "mac2",
+  "summary": {
+    "processed": 1,
+    "prepared": 1,
+    "skipped": 0,
+    "errors": 0
+  },
+  "preparedRows": [],
+  "runRows": []
+}

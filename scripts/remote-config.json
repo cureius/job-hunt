@@ -1,0 +1,18 @@
+{
+  "defaults": {
+    "jobTitle": "Software Engineer Deloitte",
+    "location": "India",
+    "phoneNumber": "",
+    "email": "",
+    "resumeFilePath": "resume.pdf",
+    "maxApplicationsPerRun": 10,
+    "authFilePath": "auth.json",
+    "visitedJobsFilePath": "visited-jobs.json",
+    "outputCsvPath": "prepared-applications.csv"
+  },
+  "workers": {
+    "mac2": {
+      "location": "India"
+    }
+  }
+}
